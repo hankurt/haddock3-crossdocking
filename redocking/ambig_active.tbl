@@ -1,0 +1,49 @@
+! HADDOCK AIR restraints - binding site approach
+! BS residues (segid A) = ACTIVE, ligand (segid B, resid 1) = ACTIVE
+! Draws the ligand into the binding pocket
+!
+assign (resid 64 and segid A)
+(
+        (resid 1 and segid B)
+) 2.0 2.0 0.0
+
+assign (resid 67 and segid A)
+(
+        (resid 1 and segid B)
+) 2.0 2.0 0.0
+
+assign (resid 120 and segid A)
+(
+        (resid 1 and segid B)
+) 2.0 2.0 0.0
+
+assign (resid 152 and segid A)
+(
+        (resid 1 and segid B)
+) 2.0 2.0 0.0
+
+assign (resid 211 and segid A)
+(
+        (resid 1 and segid B)
+) 2.0 2.0 0.0
+
+assign (resid 316 and segid A)
+(
+        (resid 1 and segid B)
+) 2.0 2.0 0.0
+
+assign (resid 318 and segid A)
+(
+        (resid 1 and segid B)
+) 2.0 2.0 0.0
+
+assign (resid 1 and segid B)
+(
+        (resid 64 and segid A)
+     or (resid 67 and segid A)
+     or (resid 120 and segid A)
+     or (resid 152 and segid A)
+     or (resid 211 and segid A)
+     or (resid 316 and segid A)
+     or (resid 318 and segid A)
+) 2.0 2.0 0.0
